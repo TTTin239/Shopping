@@ -1,0 +1,11 @@
+.text-reset:hover{
+   color: hsl(360, 67%, 44%) !important;
+}
+
+h6 {
+   font-size: 15px;
+}
+
+p {
+   font-size: 12px;
+}
