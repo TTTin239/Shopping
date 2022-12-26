@@ -7,10 +7,10 @@ function Services() {
         <div className='Wrapper1'>
             <div className='section-center1 section-center'>
                 <article className='header1'>
-                    <h3>
+                    <h3 className='text-4xl font-bold'>
                         custom furrniture <br/> built only for you
                     </h3>
-                    <p>
+                    <p className='text-lg'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
                         dolorum debitis consectetur reprehenderit non aliquam voluptates
                         dolore aut vero consequuntur.
@@ -22,8 +22,8 @@ function Services() {
                         return (
                             <article className='service1' key={id}>
                                 <span className='icon'>{icon}</span>
-                                <h4>{title}</h4>
-                                <p>{text}</p>
+                                <h4 className='text-2xl font-bold'>{title}</h4>
+                                <p className='text-base'>{text}</p>
                             </article>
                         );
                     })}

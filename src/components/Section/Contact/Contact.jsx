@@ -5,9 +5,9 @@ function Contact() {
     return (
         <div className="Wrapper">
             <div className='section-center'>
-                <h3>Join our newsletter and get 20% off</h3>
+                <h3 className='text-3xl font-bold'>Join our newsletter and get 20% off</h3>
                 <div className='content'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                    <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipiscing elit.
                        Placeat sint unde quaerat ratione solute veniam provident adipisci 
                        cumque eveniet tempore?
                     </p>

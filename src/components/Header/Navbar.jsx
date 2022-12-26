@@ -37,7 +37,7 @@ function Navbar() {
                         {Links.map((link) => {
                             const {id, url, text} = link;
                             return (
-                                <li key={id}>
+                                <li key={id} className='text-xl'>
                                     <Link to={url}>{text}</Link>
                                 </li>
                             );

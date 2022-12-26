@@ -21,12 +21,12 @@ export const Links = [
         id: 4,
         url: '/reviews',
         text: 'reviews',
-    },
-    {
-        id: 5,
-        url: '/profile',
-        text: 'profile',
     }
+    // {
+    //     id: 5,
+    //     url: '/profile',
+    //     text: 'profile',
+    // }
 ];
 
 export const social = [
