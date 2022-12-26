@@ -53,7 +53,7 @@ export default function Review() {
                 </button>
             </div>
             <button className="random-btn" onClick={randomPerson}>
-                Surprise
+                Surprise me
             </button>
         </article>
     );
