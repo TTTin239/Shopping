@@ -4,7 +4,7 @@ import {products} from './data';
 
 export default function Product() {
     return (
-      <div className="bg-info">
+      <div className="bg-blue-50">
         <div className="mx-auto max-w-2xl py-16 px-4 sm:py-20 sm:px-6 lg:max-w-7xl lg:px-8 text-center">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 mb-6">Featured Products</h2>
   
@@ -21,7 +21,7 @@ export default function Product() {
                 <div className="mt-4 flex justify-between">
                   <div>
                     <h3 className="text-sm text-gray-700">
-                      <a href={product.href}>
+                      <a href={product.href} className="no-underline">
                         {/* <span aria-hidden="true" className="absolute inset-0" /> */}
                         {product.name}
                       </a>
