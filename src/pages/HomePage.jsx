@@ -7,7 +7,7 @@ import Product from '../components/Section/Product/Product';
 function HomePage() {
     return (
         <main>
-            <Slider1/>
+            <Slider1 />
             <Product/>
             <Services/>
             <Contact/>

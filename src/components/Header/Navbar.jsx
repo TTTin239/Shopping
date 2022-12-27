@@ -32,7 +32,7 @@ function Navbar() {
                         <FaBars/>
                     </button>
                 </div>
-                <div className="links-container" ref={LinksContainerRef} style={{paddingTop: '1rem'}}>
+                <div className="links-container" ref={LinksContainerRef}>
                     <ul className='links' ref={LinksRef}>
                         {Links.map((link) => {
                             const {id, url, text} = link;
