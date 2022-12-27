@@ -8,12 +8,11 @@ function Services() {
             <div className='section-center1 section-center'>
                 <article className='header1'>
                     <h3 className='text-4xl font-bold'>
-                        custom furrniture <br/> built only for you
+                        Gucci fashion <br/> built only for you
                     </h3>
                     <p className='text-lg'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                        dolorum debitis consectetur reprehenderit non aliquam voluptates
-                        dolore aut vero consequuntur.
+                        Gucci itself is a fashion company, constantly evolving 
+                        to keep up with fashion trends to bring users the best products.
                     </p>
                 </article>
                 <div className='services-center1'>
@@ -23,7 +22,7 @@ function Services() {
                             <article className='service1' key={id}>
                                 <span className='icon'>{icon}</span>
                                 <h4 className='text-2xl font-bold'>{title}</h4>
-                                <p className='text-base'>{text}</p>
+                                <p className='text-base text-justify'>{text}</p>
                             </article>
                         );
                     })}

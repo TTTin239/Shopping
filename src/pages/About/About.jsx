@@ -8,7 +8,7 @@ export default function About() {
     return (
         <div className="main1">
             <div className="container1">
-                <h3 style={{textTransform: 'capitalize'}}>questions and answers about login</h3>
+                <h3 style={{textTransform: 'capitalize'}}>Frequently asked questions (FAQ)</h3>
                 <section className="info1">
                     {questions.map((question) => {
                         return (

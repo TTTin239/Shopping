@@ -1,33 +1,37 @@
 const abouts = [
     {
       id: 1,
-      title: 'Do I have to allow the use of cookies?',
+      title: 'What time does Gucci work?',
       info:
-        'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+        "All Gucci stores nationwide are open to welcome customers from 09:00 to 22:00 every day including Saturday, Sunday and public holidays (Except for Lunar New Year or holidays according to the Company's regulations). Holiday time will be notified in advance to customers on Gucci's website and official social networking sites such as facebook, instagram and tiktok.",
     },
     {
       id: 2,
-      title: 'How do I change my My Page password?',
+      title: 'What payment methods does Gucci support?',
       info:
-        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+        "Currently, Gucci has many different payment methods for online and offline buying and selling channels such as cash, via bank or through e-wallet applications. In addition, when you buy goods online, Gucci will support delivery to your place and pay on delivery (ship COD).",
     },
     {
       id: 3,
-      title: 'What is BankID?',
+      title: 'Are the product images online guaranteed to be the same as the real thing?',
       info:
-        'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+        "Gucci confidently commits that the product images on the Website and Online channels are taken by Gucci itself, 100% guaranteed as actual samples in terms of parameters, materials, colors, sizes, shapes,... However, some characteristics may differ due to objective shooting conditions such as lighting, product color.",
     },
     {
       id: 4,
-      title: 'Whose birth number can I use?',
+      title: 'How are accumulated points for purchases calculated by Gucci?',
       info:
-        'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+        `Accumalated points of customers will be accumalated every time they complete
+         the bill payment at the store or make an online purchase. Accumulated points are
+         calculated after deducting all discounts, incentives, sale off, discounts,....`,
     },
     {
       id: 5,
-      title: 'When do I recieve a password ordered by letter?',
+      title: 'What purposes can accumulated purchase points be used?',
       info:
-        'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+        `Accumulated points for purchases at Gucci are used to upgrade members (increase discounts)
+         and redeem points for gifts according to Gucci's special promotions (specific announcements
+          will be made on the Fanpage when the program takes place).`,
     },
   ]
   export default abouts;

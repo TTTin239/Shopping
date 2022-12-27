@@ -43,7 +43,7 @@ export default function Review() {
                 </span>
             </div>
             <h4 className="author">{name}</h4>
-            <p className="info">{text}</p>
+            <p className="info text-justify">{text}</p>
             <div className="button-container">
                 <button className="prev-btn" onClick={prevPerson}>
                     <FaChevronLeft/>
