@@ -8,6 +8,16 @@ export default function Slider1() {
         dots: true,
         infinite: true,
         slidesToShow: 3,
+        slidesToScroll: -1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+    };
+    const settings1 = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         speed: 2000,
@@ -15,13 +25,13 @@ export default function Slider1() {
         cssEase: "linear"
     };
     return (
-        <div className=" bg-blue-50">
+        <div className="">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 mb-4 pt-4 text-center">
                 Fashion Style
             </h1>
             <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2">
-                <div className="h-auto text-center relative overflow-hidden">
-                    <Slider {...settings} className="">
+                <div className="h-auto text-center relative overflow-hidden bg-blue-50">
+                    <Slider {...settings1} className="">
                         <div className="">
                             <img
                                 src="https://assets.vogue.com/photos/639231a7714d9ea25bf0e84d/master/w_1280,c_limit/00001-givenchy-pre-fall-2023-credit-brand.jpg"

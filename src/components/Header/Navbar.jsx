@@ -1,7 +1,8 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa';
-import { Links, social } from './data';
+import { FaBars, FaShoppingCart, FaUserPlus } from 'react-icons/fa';
+import { Links } from './data';
+import Cart from './CartButton';
 import Logo1 from './Logo1.png';
 import './Navbar.css'
 
@@ -17,7 +18,7 @@ function Navbar() {
         if (showLinks) {
             LinksContainerRef.current.style.height = `${LinksHeight}px`;
         }
-        else{
+        else {
             LinksContainerRef.current.style.height = '0px';
         }
     }, [showLinks]);
@@ -29,31 +30,27 @@ function Navbar() {
                         <img src={Logo1} className="logo" alt="Logo" />
                     </Link>
                     <button className="nav-toggle" onClick={toggleLinks}>
-                        <FaBars/>
+                        <FaBars />
                     </button>
                 </div>
                 <div className="links-container" ref={LinksContainerRef}>
                     <ul className='links' ref={LinksRef}>
                         {Links.map((link) => {
-                            const {id, url, text} = link;
+                            const { id, url, text } = link;
                             return (
                                 <li key={id} className='text-xl'>
                                     <Link to={url}>{text}</Link>
                                 </li>
                             );
                         })}
+                        <div className='cart2'>
+                            <Cart/>
+                        </div>
                     </ul>
                 </div>
-                {/* <ul className="social-icons">
-                    {social.map((socicalIcon) => {
-                        const {id, url, icon} = socicalIcon;
-                        return (
-                            <li key={id}>
-                                <a href={url}>{icon}</a>
-                            </li>
-                        );
-                    })}
-                </ul> */}
+                <div className='cart1'>
+                    <Cart />
+                </div>
             </div>
         </nav>
     );

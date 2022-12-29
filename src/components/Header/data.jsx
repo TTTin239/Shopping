@@ -1,5 +1,4 @@
 import React from "react";
-import {FaFacebook, FaLinkedin, FaTwitter} from 'react-icons/fa'
 
 export const Links = [
     {
@@ -27,22 +26,4 @@ export const Links = [
     //     url: '/profile',
     //     text: 'profile',
     // }
-];
-
-export const social = [
-    {
-        id: 1,
-        url: 'https://www.facebook.com/tttin23.9',
-        icon: <FaFacebook/>,
-    },
-    {
-        id: 2,
-        url: 'https://www.linkedin.com/in/t%C3%ADn-tr%E1%BA%A7n-687257244/',
-        icon: <FaLinkedin/>,
-    },
-    {
-        id: 3,
-        url: 'https://twitter.com/TTTin2309',
-        icon: <FaTwitter/>,
-    },
 ];
