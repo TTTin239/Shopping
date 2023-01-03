@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Navbar from './components/Header/Navbar';
 import Footer from './components/Footer/Footer';
 import About from './pages/About/About';
-import ListProduct from './pages/ListProduct';
+import ListProduct from './pages/Products/ListProduct';
 import HomePage from './pages/HomePage';
 import Reviews from './pages/Reviews/index';
 

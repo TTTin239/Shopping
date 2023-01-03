@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars, FaShoppingCart, FaUserPlus } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { Links } from './data';
 import Cart from './CartButton';
 import Logo1 from './Logo1.png';
@@ -30,7 +30,7 @@ function Navbar() {
                         <img src={Logo1} className="logo" alt="Logo" />
                     </Link>
                     <button className="nav-toggle" onClick={toggleLinks}>
-                        <FaBars />
+                        {showLinks ? <FaTimes/> : <FaBars/>}
                     </button>
                 </div>
                 <div className="links-container" ref={LinksContainerRef}>
