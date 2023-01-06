@@ -4,10 +4,10 @@ export const products = [
     {
         id: 1,
         name: 'Basic Tee',
-        price: '$850',
         href: '#',
         imageSrc: 'https://media.gucci.com/style/White_South_0_160_316x316/1664902812/548334_XJE8B_9275_002_100_0000_Light.jpg',
         imageAlt: 'Black and white Gucci Perseo polka dot print cotton jersey',
+        price: '$850',
         color: 'Black and white',
     },
     {

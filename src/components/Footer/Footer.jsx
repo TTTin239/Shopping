@@ -116,7 +116,7 @@ export default function Footer() {
       </section>
 
       <div className='text-center p-4' style={{ background: 'linear-gradient(53deg, rgba(2,0,36,1) 10%, rgba(89,226,254,1) 69%), rgba(155,157,195,1) 38%', color: 'white' }}>
-        © 2022 Copyright:
+        © 2023 Copyright:
         <a className='text-reset fw-bold' href='https://www.gucci.com/us/en/'>
           &nbsp;gucci.com
         </a>

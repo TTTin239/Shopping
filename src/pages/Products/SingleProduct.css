@@ -1,0 +1,36 @@
+.single-product {
+    display: grid;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    justify-items: center;
+}
+
+.singleIg {
+    width: 70%;
+}
+
+.single-product-info {
+    text-transform: capitalize;
+}
+
+.price {
+    color: rgba(184, 104, 18, 0.953);
+}
+
+.color {
+    display: flex;
+}
+.Color{
+    margin-right: 1rem;
+    font-weight: bold;
+}
+@media screen and (min-width: 800px) {
+    .single-product {
+        display: flex;
+        padding-left: 15rem;
+    }
+    .singleIg{
+        width: 30%;
+    }
+}
