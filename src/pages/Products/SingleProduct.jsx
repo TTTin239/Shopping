@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { products } from "../../components/Section/Product/data";
 import './SingleProduct.css';
+import AddToCart from '../../components/Cart/AddToCart'
 
 export default function SingleProduct() {
     const { productId } = useParams()
@@ -19,6 +20,9 @@ export default function SingleProduct() {
                     <div className='Color'>Color:</div>
                     {color}
                 </h5>
+                <hr />
+                <AddToCart product={product} />
+                <hr />
                 <Link to='/products' className='text-gray-900 btn btn-primary mt-10'>
                     Back to product
                 </Link>
