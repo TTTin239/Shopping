@@ -8,6 +8,7 @@ import ListProduct from './pages/Products/ListProduct';
 import HomePage from './pages/HomePage';
 import Reviews from './pages/Reviews/index';
 import SingleProduct from './pages/Products/SingleProduct';
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/products/:productId' element={<SingleProduct />} />
           <Route path='/reviews' element={<Reviews />} />
         </Routes>
+        <ScrollToTop />
         <Footer/>
       </Router>
     </main>
