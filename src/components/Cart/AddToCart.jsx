@@ -2,9 +2,18 @@ import { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import AmountButtons from "./AmountButtons";
+import { useCartContext } from "../../context/cart_context";
+// import { connect } from "react-redux";
+// import { buyProduct } from "../../actions/actions";
 
 function AddToCart({ product }) {
+    const { addToCart } = useCartContext()
     const [amount, setAmount] = useState(1);
+    // const product_current = {
+    //     id: product.id,
+    //     name: product.name,
+    //     price: product.price,
+    // }
     const { id } = product;
     const increase = () => {
         setAmount((oldAmount) => {
@@ -33,7 +42,8 @@ function AddToCart({ product }) {
                 <Link
                     to='/cart'
                     className='btn border '
-                    onClick={() => AddToCart(id, amount, product)}
+                    // onClick={() => product.buyProduct(product_current)}
+                    onClick={() => addToCart(+id, amount, product)}
                 >
                     add to cart
                 </Link>
@@ -41,6 +51,18 @@ function AddToCart({ product }) {
         </Wrapper>
     );
 }
+
+// const mapDispatchToProps = (dispatch) => {
+//     return {
+//         buyProduct: (product_current) => dispatch(buyProduct(product_current)),
+//     }
+// }
+
+// const mapStateToProps = (state) => {
+//     return {
+//         cart: state.cart.cartAr,
+//     }
+// }
 
 const Wrapper = styled.section`
     margin-top: 2rem;
@@ -56,5 +78,5 @@ const Wrapper = styled.section`
         background-color: rgb(59 130 246);
     }
 `
-
+// export default connect(mapStateToProps, mapDispatchToProps)(AddToCart);
 export default AddToCart;
