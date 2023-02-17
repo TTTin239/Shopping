@@ -46,7 +46,7 @@ align-items: center;
     gap: 1rem;
 }
 img {
-    width: 100%;
+    width: 120%;
     height: 100%;
     display: block;
     border-radius: var(--radius);
@@ -98,7 +98,7 @@ h5 {
     align-items: center;
     grid-template-rows: 75px;
     img {
-      height: 100%;
+      height: 120%;
     }
     .title {
       height: 100%;
